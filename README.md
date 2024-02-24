@@ -147,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your (Conventional)[https://www.conventionalcommits.org/en/v1.0.0/] Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+3. Commit your [Conventional](https://www.conventionalcommits.org/en/v1.0.0/) Changes (`git commit -m 'feat: Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request and fill out the form
 
