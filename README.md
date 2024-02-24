@@ -38,7 +38,7 @@ A repository of the Slack app the SLDSA Technology Committee has developed for t
 We expect all contributors to:
 - Have a basic understanding of web development concepts. (ie. JavaScript, ES6, NodeJS, etc.)
 - Have been granted access to the Slack App secrets. (Learn more [here](https://slack.dev/bolt-js/tutorial/getting-started).)
-- Follow the <a href="#contribution">rules for contribution</a>.
+- Follow the <a href="#contributing">rules for contribution</a>.
 
 
 If you are developing locally, it is recommended to have the following software(s) installed:
