@@ -70,7 +70,7 @@ codespace set up.
    cd sldsa-slack-apps
    ```
 
-  > *Note:* This project is set up to integrate well with VS Code, so we recommend using it as your IDE for this project. 
+  > *Note*: This project is set up to integrate well with VS Code, so we recommend using it as your IDE for this project. 
   >
   > If you use VS Code and want to utilize a dev container using Docker, you can follow instructions [here](https://code.visualstudio.com/docs/devcontainers/containers) to get it set up for your computer.
   
@@ -86,7 +86,7 @@ codespace set up.
 
 3. Duplicate the `.env.local` file and rename it to `.env`.
 
-> *WARNING* Do NOT put any secrets in the `.env.local` file. Doing so would publicly expose the secrets resulting in a security breach.
+> *WARNING*: Do NOT put any secrets in the `.env.local` file. Doing so would publicly expose the secrets resulting in a security breach.
 >
 > If you have committed secrets in the `.env.example` file, revert the file back to its original 
 
@@ -96,7 +96,7 @@ codespace set up.
    ```sh
    npm run dev
    ```
-  > *Note* This will spin up a server on localhost:3000, and (if everything is set up properly) you should see a new post in the `bot-spam` channel with a bot version message.
+  > *Note*: This will spin up a server on localhost:3000, and (if everything is set up properly) you should see a new post in the `bot-spam` channel with a bot version message.
 
   Alternatively, run the following to suppress the bot version message on reload:
    ```sh
