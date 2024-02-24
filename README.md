@@ -137,7 +137,7 @@ See the [open issues](https://github.com/slcdsa/sldsa-slack-apps/issues) for a f
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-<a name="contributing" />
+<a name="contributing"></a>
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
