@@ -31,8 +31,8 @@ jobs:
     - name: Install Dependencies
       run: npm ci
 
-    - name: Run ESLint and CommitLint
-      run: eslint 'src/**/*.js'
+    - name: Run ESLint
+      run: npx eslint 'src/**/*.js'
 
     - name: Install commitlint
       run: |
