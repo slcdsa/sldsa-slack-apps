@@ -1,0 +1,4 @@
+{
+  // creates vertical ruler to adhere to 80 character limit
+  "editor.rulers": [80]
+}
