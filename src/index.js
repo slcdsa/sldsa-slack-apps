@@ -9,7 +9,7 @@ try {
     // Notify the bot is live
     await app.client.chat.postMessage({
       token: process.env.SLACK_BOT_TOKEN,
-      channel: process.env.BOT_SPAM_CHANNEL,
+      channel: 'bot-spam',
       text: `🤖 Bot \`v${process.env.npm_package_version}\` is now live ⚡`,
     });
   }
