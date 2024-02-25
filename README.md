@@ -7,20 +7,7 @@
     <img src="/src/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">SLDSA Slack App</h3>
-
-  <!-- <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p> -->
+  <h3 align="center">SLDSA Slack App</h3>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -36,7 +23,7 @@ A repository of the Slack app the SLDSA Technology Committee has developed for t
 ### Prerequisites
 
 We expect all contributors to:
-- Have a basic understanding of web development concepts. (ie. JavaScript, ES6, NodeJS, etc.)
+- Have a basic understanding of web development concepts. (Version Control, JavaScript, ESM modules, NodeJS, etc.)
 - Have been granted access to the Slack App secrets. (Learn more [here](https://slack.dev/bolt-js/tutorial/getting-started).)
 - Follow the <a href="#contributing">rules for contribution</a>.
 
@@ -54,11 +41,9 @@ If you are developing locally, it is recommended to have the following software(
 
 - (In the browser) The quick and easy way to begin developing for this project is to use GitHub Codespaces. 
 GitHub Codespaces greatly simplifies the developer's workflow by setting up the 
-development environment for you inside your browser.
+development environment for you inside your browser. Click this button to get started:
 
-To begin, simply click the green code button at the top of this repo,
-select the codespaces tab, and create a codespace. Follow the steps to get the 
-codespace set up.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](URL)
 
 - (Locally) To install and open locally, clone the repository:
    ```sh
@@ -79,7 +64,7 @@ codespace set up.
   code .
   ```
 
-2. Once your project is set up in an IDE, install the NPM packages:
+2. Once your project is set up in an IDE, make sure the NPM packages are installed. (Codespaces should do this step for you. Run the command if you're unsure.)
    ```sh
    npm install
    ```
@@ -88,7 +73,8 @@ codespace set up.
 
 > *WARNING*: Do NOT put any secrets in the `.env.local` file. Doing so would publicly expose the secrets resulting in a security breach.
 >
-> If you have committed secrets in the `.env.example` file, revert the file back to its original 
+> If you have committed secrets in the `.env.example` file, contact the WG-Tech lead ASAP.
+> The Tech Lead will need to reset the tokens and update them in GitHub Secrets.
 
 4. Paste the appropriate Slack App credentials into the newly created `.env` file.
 
@@ -105,6 +91,8 @@ codespace set up.
 
   To reset the server type `rs` in the terminal.
   To quit the server use `CTRL + C` in the terminal.
+
+6. Follow the <a href="#contributing">rules for contribution</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,13 +130,13 @@ See the [open issues](https://github.com/slcdsa/sldsa-slack-apps/issues) for a f
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please clone the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
+1. Clone the Project locally or open the project in GitHub Codespaces
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your [Conventional](https://www.conventionalcommits.org/en/v1.0.0/) Changes (`git commit -m 'feat: Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request and fill out the form
+5. Open a Pull Request, fill out the Pull Request form, and ask someone to review your changes before merging into main
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
