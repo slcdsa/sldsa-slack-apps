@@ -9,7 +9,7 @@
 ## Summary
 <!-- Put an X in the brackets to mark the checkbox -->
 - [ ] Are the commit messages [conventional](https://www.conventionalcommits.org/en/v1.0.0/) and easy to read?
-- [ ] Did you sqash related commits?
+- [ ] Did you squash related commits?
 - [ ] Did this PR add a new feature(s)? If so, did you update:
     - [ ] the `README.md` Usage section to document the new functionality?
     - [ ] the semantic version in `package.json`?
