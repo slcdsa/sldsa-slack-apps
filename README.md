@@ -94,6 +94,13 @@ development environment for you inside your browser. Click this button to get st
 
 6. Follow the <a href="#contributing">rules for contribution</a>.
 
+### Docker
+
+To run this project in Docker, run
+```sh
+docker compose up -d
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
