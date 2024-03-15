@@ -2,13 +2,13 @@
   "name": "sldsa-slack-apps",
   "version": "1.0.0",
   "description": "Official SLDSA Slack Bot",
-  "main": "src",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint 'src/**/*.js' && commitlint --from=HEAD~1 --to HEAD --verbose",
-    "dev": "nodemon -- index.js",
-    "dev:silent": "nodemon -- index.js -s"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint 'src/**/*.mjs' && commitlint --from=HEAD~1 --to HEAD --verbose",
+    "dev": "tsc-watch --project . --outDir ./dist --onSuccess \"nodemon ./dist/bin/www.js\""
   },
   "dependencies": {
     "@slack/bolt": "^3.17.1"
@@ -16,21 +16,13 @@
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.2",
+    "@types/node": "^20.11.28",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-config-google": "^0.14.0",
     "esm": "^3.2.25",
-    "nodemon": "^3.1.0"
-  },
-  "nodemonConfig": {
-    "ignore": [
-      "**/*.test.js",
-      "node_modules"
-    ],
-    "watch": [
-      ".env",
-      "src"
-    ],
-    "delay": 2500
+    "nodemon": "^3.1.0",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.4.2"
   }
 }
