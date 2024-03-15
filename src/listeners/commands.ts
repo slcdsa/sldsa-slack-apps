@@ -1,4 +1,6 @@
-const register = (app) => {
+import { App } from '@slack/bolt';
+
+const register = (app : App) => {
   // The echo command simply echoes on command
   app.command('/health', async ({command, ack, respond}) => {
     try {
